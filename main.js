@@ -6,7 +6,7 @@
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
-
+ 
 var map = {
 	"./af": "./node_modules/moment/locale/af.js",
 	"./af.js": "./node_modules/moment/locale/af.js",
