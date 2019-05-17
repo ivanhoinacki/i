@@ -6,7 +6,7 @@
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
- 
+
 var map = {
 	"./af": "./node_modules/moment/locale/af.js",
 	"./af.js": "./node_modules/moment/locale/af.js",
@@ -350,7 +350,7 @@ var routes = [
     { path: '**', redirectTo: '' },
 ];
 var config = {
-    useHash: true,
+    useHash: false,
 };
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -486,8 +486,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_moment_adapter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material-moment-adapter */ "./node_modules/@angular/material-moment-adapter/esm5/material-moment-adapter.es5.js");
 /* harmony import */ var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/locales/pt */ "./node_modules/@angular/common/locales/pt.js");
 /* harmony import */ var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _lib_material_module__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./lib/material.module */ "./src/app/lib/material.module.ts");
-/* harmony import */ var _lib_components__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./lib/components */ "./src/app/lib/components/index.ts");
+/* harmony import */ var _lib_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./lib/components */ "./src/app/lib/components/index.ts");
 
 
 
@@ -500,7 +499,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 Object(_angular_common__WEBPACK_IMPORTED_MODULE_2__["registerLocaleData"])(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_9___default.a);
-
 var NODE_MODULE = [
     _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"],
     _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
@@ -508,13 +506,12 @@ var NODE_MODULE = [
     angular2_text_mask__WEBPACK_IMPORTED_MODULE_6__["TextMaskModule"],
     ng2_currency_mask__WEBPACK_IMPORTED_MODULE_5__["CurrencyMaskModule"],
     _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ReactiveFormsModule"],
-    _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbModule"],
-    _lib_material_module__WEBPACK_IMPORTED_MODULE_10__["MaterialModule"]
+    _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_4__["NgbModule"]
 ];
 
 var COMPONENTS = [
-    _lib_components__WEBPACK_IMPORTED_MODULE_11__["IconsModule"],
-    _lib_components__WEBPACK_IMPORTED_MODULE_11__["SocialMediaModule"]
+    _lib_components__WEBPACK_IMPORTED_MODULE_10__["IconsModule"],
+    _lib_components__WEBPACK_IMPORTED_MODULE_10__["SocialMediaModule"]
 ];
 var LibModule = /** @class */ (function () {
     function LibModule() {
@@ -545,56 +542,57 @@ var LibModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/lib/components/icons/icons.comp.ts":
-/*!****************************************************!*\
-  !*** ./src/app/lib/components/icons/icons.comp.ts ***!
-  \****************************************************/
-/*! exports provided: IconsComp */
+/***/ "./src/app/lib/components/icons/icons.component.html":
+/*!***********************************************************!*\
+  !*** ./src/app/lib/components/icons/icons.component.html ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<svg style=\"position: absolute; width: 0; height: 0;\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <defs>\r\n        <symbol id=\"icon-chevron-down\" viewBox=\"0 0 640 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>chevron-down</title>\r\n            <path class=\"path1\" d=\"M512 320l-192 192-192-192-128 128 320 320 320-320-128-128z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-mic\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>mic</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M480 704c88.366 0 160-71.634 160-160v-384c0-88.366-71.634-160-160-160s-160 71.634-160 160v384c0 88.366 71.636 160 160 160zM704 448v96c0 123.71-100.29 224-224 224-123.712 0-224-100.29-224-224v-96h-64v96c0 148.238 112.004 270.3 256 286.22v129.78h-128v64h320v-64h-128v-129.78c143.994-15.92 256-137.982 256-286.22v-96h-64z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-phone\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>phone</title>\r\n            <path class=\"path1\" d=\"M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-envelop\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>envelop</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M928 128h-832c-52.8 0-96 43.2-96 96v640c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-640c0-52.8-43.2-96-96-96zM398.74 550.372l-270.74 210.892v-501.642l270.74 290.75zM176.38 256h671.24l-335.62 252-335.62-252zM409.288 561.698l102.712 110.302 102.71-110.302 210.554 270.302h-626.528l210.552-270.302zM625.26 550.372l270.74-290.75v501.642l-270.74-210.892z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-stats\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>stats</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M128 896h896v128h-1024v-1024h128zM288 832c-53.020 0-96-42.98-96-96s42.98-96 96-96c2.828 0 5.622 0.148 8.388 0.386l103.192-171.986c-9.84-15.070-15.58-33.062-15.58-52.402 0-53.020 42.98-96 96-96s96 42.98 96 96c0 19.342-5.74 37.332-15.58 52.402l103.192 171.986c2.766-0.238 5.56-0.386 8.388-0.386 2.136 0 4.248 0.094 6.35 0.23l170.356-298.122c-10.536-15.408-16.706-34.036-16.706-54.11 0-53.020 42.98-96 96-96s96 42.98 96 96c0 53.020-42.98 96-96 96-2.14 0-4.248-0.094-6.35-0.232l-170.356 298.124c10.536 15.406 16.706 34.036 16.706 54.11 0 53.020-42.98 96-96 96s-96-42.98-96-96c0-19.34 5.74-37.332 15.578-52.402l-103.19-171.984c-2.766 0.238-5.56 0.386-8.388 0.386s-5.622-0.146-8.388-0.386l-103.192 171.986c9.84 15.068 15.58 33.060 15.58 52.4 0 53.020-42.98 96-96 96z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-eye\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>eye</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M512 192c-223.318 0-416.882 130.042-512 320 95.118 189.958 288.682 320 512 320 223.312 0 416.876-130.042 512-320-95.116-189.958-288.688-320-512-320zM764.45 361.704c60.162 38.374 111.142 89.774 149.434 150.296-38.292 60.522-89.274 111.922-149.436 150.296-75.594 48.218-162.89 73.704-252.448 73.704-89.56 0-176.858-25.486-252.452-73.704-60.158-38.372-111.138-89.772-149.432-150.296 38.292-60.524 89.274-111.924 149.434-150.296 3.918-2.5 7.876-4.922 11.86-7.3-9.96 27.328-15.41 56.822-15.41 87.596 0 141.382 114.616 256 256 256 141.382 0 256-114.618 256-256 0-30.774-5.452-60.268-15.408-87.598 3.978 2.378 7.938 4.802 11.858 7.302v0zM512 416c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.982 96 96z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-play\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>play</title>\r\n            <path class=\"path1\" d=\"M192 128l640 384-640 384z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-new-tab\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>new-tab</title>\r\n            <path class=\"path1\" d=\"M192 64v768h768v-768h-768zM896 768h-640v-640h640v640zM128 896v-672l-64-64v800h800l-64-64h-672z\"></path>\r\n            <path class=\"path2\" d=\"M352 256l160 160-192 192 96 96 192-192 160 160v-416z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-terminal\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>terminal</title>\r\n            <path class=\"path1\" d=\"M0 64v896h1024v-896h-1024zM960 896h-896v-768h896v768zM896 192h-768v640h768v-640zM448 512h-64v64h-64v64h-64v-64h64v-64h64v-64h-64v-64h-64v-64h64v64h64v64h64v64zM704 640h-192v-64h192v64z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-gplus\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>gplus</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M325.8 457.4v111.8h184.8c-7.4 48-55.8 140.6-184.8 140.6-111.2 0-202-92.2-202-205.8s90.8-205.8 202-205.8c63.4 0 105.6 27 129.8 50.2l88.4-85.2c-56.8-53-130.4-85.2-218.2-85.2-180.2 0.2-325.8 145.8-325.8 326s145.6 325.8 325.8 325.8c188 0 312.8-132.2 312.8-318.4 0-21.4-2.4-37.8-5.2-54h-307.6z\"></path>\r\n            <path class=\"path2\" d=\"M1024 448h-96v-96h-96v96h-96v96h96v96h96v-96h96z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-twitter\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>twitter</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-github\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>github</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M512.008 12.642c-282.738 0-512.008 229.218-512.008 511.998 0 226.214 146.704 418.132 350.136 485.836 25.586 4.738 34.992-11.11 34.992-24.632 0-12.204-0.48-52.542-0.696-95.324-142.448 30.976-172.504-60.41-172.504-60.41-23.282-59.176-56.848-74.916-56.848-74.916-46.452-31.778 3.51-31.124 3.51-31.124 51.4 3.61 78.476 52.766 78.476 52.766 45.672 78.27 119.776 55.64 149.004 42.558 4.588-33.086 17.852-55.68 32.506-68.464-113.73-12.942-233.276-56.85-233.276-253.032 0-55.898 20.004-101.574 52.76-137.428-5.316-12.9-22.854-64.972 4.952-135.5 0 0 43.006-13.752 140.84 52.49 40.836-11.348 84.636-17.036 128.154-17.234 43.502 0.198 87.336 5.886 128.256 17.234 97.734-66.244 140.656-52.49 140.656-52.49 27.872 70.528 10.35 122.6 5.036 135.5 32.82 35.856 52.694 81.532 52.694 137.428 0 196.654-119.778 239.95-233.79 252.624 18.364 15.89 34.724 47.046 34.724 94.812 0 68.508-0.596 123.644-0.596 140.508 0 13.628 9.222 29.594 35.172 24.566 203.322-67.776 349.842-259.626 349.842-485.768 0-282.78-229.234-511.998-511.992-511.998z\"></path>\r\n        </symbol>\r\n    </defs>\r\n</svg>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/lib/components/icons/icons.component.scss":
+/*!***********************************************************!*\
+  !*** ./src/app/lib/components/icons/icons.component.scss ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".social-media {\n  margin: 0;\n  padding: 0;\n  display: inline-flex; }\n\n.social-media li {\n  display: inline-block;\n  padding: 0 15px; }\n\n.icon--small {\n  width: 32px;\n  height: 32px;\n  fill: #2f2f2f; }\n\n.icon--mini {\n  width: 16px;\n  height: 16px;\n  fill: #2f2f2f; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbGliL2NvbXBvbmVudHMvaWNvbnMvQzpcXFVzZXJzXFxpdmFuX1xcZ2l0TGFiXFxpdmFuaG9pbmFja2kuZ2l0aHViLmlvXFxjbGllbnQvc3JjXFxhcHBcXGxpYlxcY29tcG9uZW50c1xcaWNvbnNcXGljb25zLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksU0FBUztFQUNULFVBQVU7RUFDVixvQkFBb0IsRUFBQTs7QUFHeEI7RUFDSSxxQkFBcUI7RUFDckIsZUFBZSxFQUFBOztBQUduQjtFQUNJLFdBQVc7RUFDWCxZQUFZO0VBQ1osYUFBYSxFQUFBOztBQUdqQjtFQUNJLFdBQVc7RUFDWCxZQUFZO0VBQ1osYUFBYSxFQUFBIiwiZmlsZSI6InNyYy9hcHAvbGliL2NvbXBvbmVudHMvaWNvbnMvaWNvbnMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29jaWFsLW1lZGlhIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcclxufVxyXG5cclxuLnNvY2lhbC1tZWRpYSBsaSB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAwIDE1cHg7XHJcbn1cclxuXHJcbi5pY29uLS1zbWFsbCB7XHJcbiAgICB3aWR0aDogMzJweDtcclxuICAgIGhlaWdodDogMzJweDtcclxuICAgIGZpbGw6ICMyZjJmMmY7XHJcbn1cclxuXHJcbi5pY29uLS1taW5pIHtcclxuICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgaGVpZ2h0OiAxNnB4O1xyXG4gICAgZmlsbDogIzJmMmYyZjtcclxufVxyXG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/lib/components/icons/icons.component.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/lib/components/icons/icons.component.ts ***!
+  \*********************************************************/
+/*! exports provided: IconsComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsComp", function() { return IconsComp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsComponent", function() { return IconsComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 
 
-var IconsComp = /** @class */ (function () {
-    function IconsComp() {
+var IconsComponent = /** @class */ (function () {
+    function IconsComponent() {
     }
-    IconsComp = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    IconsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'icons',
-            template: __webpack_require__(/*! ./icons.html */ "./src/app/lib/components/icons/icons.html"),
-            styles: [__webpack_require__(/*! ./icons.css */ "./src/app/lib/components/icons/icons.css")]
-        })
-    ], IconsComp);
-    return IconsComp;
+            template: __webpack_require__(/*! ./icons.component.html */ "./src/app/lib/components/icons/icons.component.html"),
+            styles: [__webpack_require__(/*! ./icons.component.scss */ "./src/app/lib/components/icons/icons.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], IconsComponent);
+    return IconsComponent;
 }());
 
 
-
-/***/ }),
-
-/***/ "./src/app/lib/components/icons/icons.css":
-/*!************************************************!*\
-  !*** ./src/app/lib/components/icons/icons.css ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2xpYi9jb21wb25lbnRzL2ljb25zL2ljb25zLmNzcyJ9 */"
-
-/***/ }),
-
-/***/ "./src/app/lib/components/icons/icons.html":
-/*!*************************************************!*\
-  !*** ./src/app/lib/components/icons/icons.html ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<svg style=\"position: absolute; width: 0; height: 0;\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n  <defs>\r\n    <symbol id=\"icon-chevron-down\" viewBox=\"0 0 640 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>chevron-down</title>\r\n      <path class=\"path1\" d=\"M512 320l-192 192-192-192-128 128 320 320 320-320-128-128z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-mic\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>mic</title>\r\n      <path\r\n        class=\"path1\"\r\n        d=\"M480 704c88.366 0 160-71.634 160-160v-384c0-88.366-71.634-160-160-160s-160 71.634-160 160v384c0 88.366 71.636 160 160 160zM704 448v96c0 123.71-100.29 224-224 224-123.712 0-224-100.29-224-224v-96h-64v96c0 148.238 112.004 270.3 256 286.22v129.78h-128v64h320v-64h-128v-129.78c143.994-15.92 256-137.982 256-286.22v-96h-64z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-phone\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>phone</title>\r\n      <path class=\"path1\" d=\"M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-envelop\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>envelop</title>\r\n      <path\r\n        class=\"path1\"\r\n        d=\"M928 128h-832c-52.8 0-96 43.2-96 96v640c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-640c0-52.8-43.2-96-96-96zM398.74 550.372l-270.74 210.892v-501.642l270.74 290.75zM176.38 256h671.24l-335.62 252-335.62-252zM409.288 561.698l102.712 110.302 102.71-110.302 210.554 270.302h-626.528l210.552-270.302zM625.26 550.372l270.74-290.75v501.642l-270.74-210.892z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-stats\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>stats</title>\r\n      <path\r\n        class=\"path1\"\r\n        d=\"M128 896h896v128h-1024v-1024h128zM288 832c-53.020 0-96-42.98-96-96s42.98-96 96-96c2.828 0 5.622 0.148 8.388 0.386l103.192-171.986c-9.84-15.070-15.58-33.062-15.58-52.402 0-53.020 42.98-96 96-96s96 42.98 96 96c0 19.342-5.74 37.332-15.58 52.402l103.192 171.986c2.766-0.238 5.56-0.386 8.388-0.386 2.136 0 4.248 0.094 6.35 0.23l170.356-298.122c-10.536-15.408-16.706-34.036-16.706-54.11 0-53.020 42.98-96 96-96s96 42.98 96 96c0 53.020-42.98 96-96 96-2.14 0-4.248-0.094-6.35-0.232l-170.356 298.124c10.536 15.406 16.706 34.036 16.706 54.11 0 53.020-42.98 96-96 96s-96-42.98-96-96c0-19.34 5.74-37.332 15.578-52.402l-103.19-171.984c-2.766 0.238-5.56 0.386-8.388 0.386s-5.622-0.146-8.388-0.386l-103.192 171.986c9.84 15.068 15.58 33.060 15.58 52.4 0 53.020-42.98 96-96 96z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-eye\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>eye</title>\r\n      <path\r\n        class=\"path1\"\r\n        d=\"M512 192c-223.318 0-416.882 130.042-512 320 95.118 189.958 288.682 320 512 320 223.312 0 416.876-130.042 512-320-95.116-189.958-288.688-320-512-320zM764.45 361.704c60.162 38.374 111.142 89.774 149.434 150.296-38.292 60.522-89.274 111.922-149.436 150.296-75.594 48.218-162.89 73.704-252.448 73.704-89.56 0-176.858-25.486-252.452-73.704-60.158-38.372-111.138-89.772-149.432-150.296 38.292-60.524 89.274-111.924 149.434-150.296 3.918-2.5 7.876-4.922 11.86-7.3-9.96 27.328-15.41 56.822-15.41 87.596 0 141.382 114.616 256 256 256 141.382 0 256-114.618 256-256 0-30.774-5.452-60.268-15.408-87.598 3.978 2.378 7.938 4.802 11.858 7.302v0zM512 416c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.982 96 96z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-play\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>play</title>\r\n      <path class=\"path1\" d=\"M192 128l640 384-640 384z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-new-tab\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>new-tab</title>\r\n      <path class=\"path1\" d=\"M192 64v768h768v-768h-768zM896 768h-640v-640h640v640zM128 896v-672l-64-64v800h800l-64-64h-672z\"></path>\r\n      <path class=\"path2\" d=\"M352 256l160 160-192 192 96 96 192-192 160 160v-416z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-terminal\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>terminal</title>\r\n      <path class=\"path1\" d=\"M0 64v896h1024v-896h-1024zM960 896h-896v-768h896v768zM896 192h-768v640h768v-640zM448 512h-64v64h-64v64h-64v-64h64v-64h64v-64h-64v-64h-64v-64h64v64h64v64h64v64zM704 640h-192v-64h192v64z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-gplus\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>gplus</title>\r\n      <path\r\n        class=\"path1\"\r\n        d=\"M325.8 457.4v111.8h184.8c-7.4 48-55.8 140.6-184.8 140.6-111.2 0-202-92.2-202-205.8s90.8-205.8 202-205.8c63.4 0 105.6 27 129.8 50.2l88.4-85.2c-56.8-53-130.4-85.2-218.2-85.2-180.2 0.2-325.8 145.8-325.8 326s145.6 325.8 325.8 325.8c188 0 312.8-132.2 312.8-318.4 0-21.4-2.4-37.8-5.2-54h-307.6z\"></path>\r\n      <path class=\"path2\" d=\"M1024 448h-96v-96h-96v96h-96v96h96v96h96v-96h96z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-twitter\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>twitter</title>\r\n      <path\r\n        class=\"path1\"\r\n        d=\"M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z\"></path>\r\n    </symbol>\r\n    <symbol id=\"icon-github\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n      <title>github</title>\r\n      <path\r\n        class=\"path1\"\r\n        d=\"M512.008 12.642c-282.738 0-512.008 229.218-512.008 511.998 0 226.214 146.704 418.132 350.136 485.836 25.586 4.738 34.992-11.11 34.992-24.632 0-12.204-0.48-52.542-0.696-95.324-142.448 30.976-172.504-60.41-172.504-60.41-23.282-59.176-56.848-74.916-56.848-74.916-46.452-31.778 3.51-31.124 3.51-31.124 51.4 3.61 78.476 52.766 78.476 52.766 45.672 78.27 119.776 55.64 149.004 42.558 4.588-33.086 17.852-55.68 32.506-68.464-113.73-12.942-233.276-56.85-233.276-253.032 0-55.898 20.004-101.574 52.76-137.428-5.316-12.9-22.854-64.972 4.952-135.5 0 0 43.006-13.752 140.84 52.49 40.836-11.348 84.636-17.036 128.154-17.234 43.502 0.198 87.336 5.886 128.256 17.234 97.734-66.244 140.656-52.49 140.656-52.49 27.872 70.528 10.35 122.6 5.036 135.5 32.82 35.856 52.694 81.532 52.694 137.428 0 196.654-119.778 239.95-233.79 252.624 18.364 15.89 34.724 47.046 34.724 94.812 0 68.508-0.596 123.644-0.596 140.508 0 13.628 9.222 29.594 35.172 24.566 203.322-67.776 349.842-259.626 349.842-485.768 0-282.78-229.234-511.998-511.992-511.998z\"></path>\r\n    </symbol>\r\n  </defs>\r\n</svg>\r\n"
 
 /***/ }),
 
@@ -610,10 +608,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return IconsModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _icons_comp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./icons.comp */ "./src/app/lib/components/icons/icons.comp.ts");
+/* harmony import */ var _icons_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./icons.component */ "./src/app/lib/components/icons/icons.component.ts");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-
 
 
 
@@ -623,9 +619,9 @@ var IconsModule = /** @class */ (function () {
     }
     IconsModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"]],
-            exports: [_icons_comp__WEBPACK_IMPORTED_MODULE_2__["IconsComp"]],
-            declarations: [_icons_comp__WEBPACK_IMPORTED_MODULE_2__["IconsComp"]],
+            imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"]],
+            exports: [_icons_component__WEBPACK_IMPORTED_MODULE_2__["IconsComponent"]],
+            declarations: [_icons_component__WEBPACK_IMPORTED_MODULE_2__["IconsComponent"]],
         })
     ], IconsModule);
     return IconsModule;
@@ -639,13 +635,13 @@ var IconsModule = /** @class */ (function () {
 /*!***********************************************!*\
   !*** ./src/app/lib/components/icons/index.ts ***!
   \***********************************************/
-/*! exports provided: IconsComp, IconsModule */
+/*! exports provided: IconsComponent, IconsModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _icons_comp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./icons.comp */ "./src/app/lib/components/icons/icons.comp.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsComp", function() { return _icons_comp__WEBPACK_IMPORTED_MODULE_0__["IconsComp"]; });
+/* harmony import */ var _icons_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./icons.component */ "./src/app/lib/components/icons/icons.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsComponent", function() { return _icons_component__WEBPACK_IMPORTED_MODULE_0__["IconsComponent"]; });
 
 /* harmony import */ var _icons_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons.module */ "./src/app/lib/components/icons/icons.module.ts");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return _icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"]; });
@@ -660,30 +656,41 @@ __webpack_require__.r(__webpack_exports__);
 /*!*****************************************!*\
   !*** ./src/app/lib/components/index.ts ***!
   \*****************************************/
-/*! exports provided: StyleManagerService, ThemeStorageService, ThemePickerComponent, ThemePickerModule, IconsComp, IconsModule, SocialMediaComp, SocialMediaModule */
+/*! exports provided: SocialMediaComponent, SocialMediaModule, IconsComponent, IconsModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _themePicker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./themePicker */ "./src/app/lib/components/themePicker/index.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StyleManagerService", function() { return _themePicker__WEBPACK_IMPORTED_MODULE_0__["StyleManagerService"]; });
+/* harmony import */ var _socialMedia__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./socialMedia */ "./src/app/lib/components/socialMedia/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComponent", function() { return _socialMedia__WEBPACK_IMPORTED_MODULE_0__["SocialMediaComponent"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeStorageService", function() { return _themePicker__WEBPACK_IMPORTED_MODULE_0__["ThemeStorageService"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemePickerComponent", function() { return _themePicker__WEBPACK_IMPORTED_MODULE_0__["ThemePickerComponent"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemePickerModule", function() { return _themePicker__WEBPACK_IMPORTED_MODULE_0__["ThemePickerModule"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return _socialMedia__WEBPACK_IMPORTED_MODULE_0__["SocialMediaModule"]; });
 
 /* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons */ "./src/app/lib/components/icons/index.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsComp", function() { return _icons__WEBPACK_IMPORTED_MODULE_1__["IconsComp"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsComponent", function() { return _icons__WEBPACK_IMPORTED_MODULE_1__["IconsComponent"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return _icons__WEBPACK_IMPORTED_MODULE_1__["IconsModule"]; });
 
-/* harmony import */ var _social_media__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./social-media */ "./src/app/lib/components/social-media/index.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComp", function() { return _social_media__WEBPACK_IMPORTED_MODULE_2__["SocialMediaComp"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return _social_media__WEBPACK_IMPORTED_MODULE_2__["SocialMediaModule"]; });
 
+
+
+/***/ }),
+
+/***/ "./src/app/lib/components/socialMedia/index.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/lib/components/socialMedia/index.ts ***!
+  \*****************************************************/
+/*! exports provided: SocialMediaComponent, SocialMediaModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _socialMedia_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./socialMedia.component */ "./src/app/lib/components/socialMedia/socialMedia.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComponent", function() { return _socialMedia_component__WEBPACK_IMPORTED_MODULE_0__["SocialMediaComponent"]; });
+
+/* harmony import */ var _socialMedia_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./socialMedia.module */ "./src/app/lib/components/socialMedia/socialMedia.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return _socialMedia_module__WEBPACK_IMPORTED_MODULE_1__["SocialMediaModule"]; });
 
 
 
@@ -691,88 +698,64 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/app/lib/components/social-media/index.ts":
-/*!******************************************************!*\
-  !*** ./src/app/lib/components/social-media/index.ts ***!
-  \******************************************************/
-/*! exports provided: SocialMediaComp, SocialMediaModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./src/app/lib/components/socialMedia/socialMedia.component.html":
+/*!***********************************************************************!*\
+  !*** ./src/app/lib/components/socialMedia/socialMedia.component.html ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _social_media_comp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./social-media.comp */ "./src/app/lib/components/social-media/social-media.comp.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComp", function() { return _social_media_comp__WEBPACK_IMPORTED_MODULE_0__["SocialMediaComp"]; });
-
-/* harmony import */ var _social_media_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./social-media.module */ "./src/app/lib/components/social-media/social-media.module.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return _social_media_module__WEBPACK_IMPORTED_MODULE_1__["SocialMediaModule"]; });
-
-
-
-
+module.exports = "<ul class=\"social-media\">\r\n    <li>\r\n        <a href=\"https://plus.google.com/101327672854263730148\">\r\n            <svg class=\"icon--mini\" highlight>\r\n                <use xlink:href=\"#icon-gplus\"></use>\r\n            </svg>\r\n        </a>\r\n    </li>\r\n    <li>\r\n        <a href=\"https://github.com/ivanhoinacki\" >\r\n            <svg class=\"icon--mini\" highlight>\r\n                <use xlink:href=\"#icon-github\"></use>\r\n            </svg>\r\n        </a>\r\n    </li>\r\n    <li>\r\n        <a href=\"https://twitter.com/ivanhoinacki\">\r\n            <svg class=\"icon--mini\" highlight>\r\n                <use xlink:href=\"#icon-twitter\"></use>\r\n            </svg>\r\n        </a>\r\n    </li>\r\n</ul>\r\n"
 
 /***/ }),
 
-/***/ "./src/app/lib/components/social-media/social-media.comp.ts":
-/*!******************************************************************!*\
-  !*** ./src/app/lib/components/social-media/social-media.comp.ts ***!
-  \******************************************************************/
-/*! exports provided: SocialMediaComp */
+/***/ "./src/app/lib/components/socialMedia/socialMedia.component.scss":
+/*!***********************************************************************!*\
+  !*** ./src/app/lib/components/socialMedia/socialMedia.component.scss ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".social-media {\n  margin: 0;\n  padding: 0;\n  display: inline-flex; }\n\n.social-media li {\n  display: inline-block;\n  padding: 0 15px; }\n\n.icon--small {\n  width: 32px;\n  height: 32px;\n  fill: #2f2f2f; }\n\n.icon--mini {\n  width: 16px;\n  height: 16px;\n  fill: #2f2f2f; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbGliL2NvbXBvbmVudHMvc29jaWFsTWVkaWEvQzpcXFVzZXJzXFxpdmFuX1xcZ2l0TGFiXFxpdmFuaG9pbmFja2kuZ2l0aHViLmlvXFxjbGllbnQvc3JjXFxhcHBcXGxpYlxcY29tcG9uZW50c1xcc29jaWFsTWVkaWFcXHNvY2lhbE1lZGlhLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksU0FBUztFQUNULFVBQVU7RUFDVixvQkFBb0IsRUFBQTs7QUFHeEI7RUFDSSxxQkFBcUI7RUFDckIsZUFBZSxFQUFBOztBQUduQjtFQUNJLFdBQVc7RUFDWCxZQUFZO0VBQ1osYUFBYSxFQUFBOztBQUdqQjtFQUNJLFdBQVc7RUFDWCxZQUFZO0VBQ1osYUFBYSxFQUFBIiwiZmlsZSI6InNyYy9hcHAvbGliL2NvbXBvbmVudHMvc29jaWFsTWVkaWEvc29jaWFsTWVkaWEuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29jaWFsLW1lZGlhIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcclxufVxyXG5cclxuLnNvY2lhbC1tZWRpYSBsaSB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAwIDE1cHg7XHJcbn1cclxuXHJcbi5pY29uLS1zbWFsbCB7XHJcbiAgICB3aWR0aDogMzJweDtcclxuICAgIGhlaWdodDogMzJweDtcclxuICAgIGZpbGw6ICMyZjJmMmY7XHJcbn1cclxuXHJcbi5pY29uLS1taW5pIHtcclxuICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgaGVpZ2h0OiAxNnB4O1xyXG4gICAgZmlsbDogIzJmMmYyZjtcclxufVxyXG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/lib/components/socialMedia/socialMedia.component.ts":
+/*!*********************************************************************!*\
+  !*** ./src/app/lib/components/socialMedia/socialMedia.component.ts ***!
+  \*********************************************************************/
+/*! exports provided: SocialMediaComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComp", function() { return SocialMediaComp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComponent", function() { return SocialMediaComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _directive_highlight_highlight_directive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../directive/highlight/highlight.directive */ "./src/app/lib/directive/highlight/highlight.directive.ts");
 
 
-
-var SocialMediaComp = /** @class */ (function () {
-    function SocialMediaComp() {
+var SocialMediaComponent = /** @class */ (function () {
+    function SocialMediaComponent() {
     }
-    SocialMediaComp = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    SocialMediaComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'social-media',
-            template: __webpack_require__(/*! ./social-media.html */ "./src/app/lib/components/social-media/social-media.html"),
-            providers: [_directive_highlight_highlight_directive__WEBPACK_IMPORTED_MODULE_2__["HighlightDirective"]],
-            styles: [__webpack_require__(/*! ./social-media.css */ "./src/app/lib/components/social-media/social-media.css")]
+            template: __webpack_require__(/*! ./socialMedia.component.html */ "./src/app/lib/components/socialMedia/socialMedia.component.html"),
+            styles: [__webpack_require__(/*! ./socialMedia.component.scss */ "./src/app/lib/components/socialMedia/socialMedia.component.scss")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], SocialMediaComp);
-    return SocialMediaComp;
+    ], SocialMediaComponent);
+    return SocialMediaComponent;
 }());
 
 
 
 /***/ }),
 
-/***/ "./src/app/lib/components/social-media/social-media.css":
-/*!**************************************************************!*\
-  !*** ./src/app/lib/components/social-media/social-media.css ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".social-media {\r\n  margin: 0;\r\n  padding: 0;\r\n  display: inline-flex;\r\n}\r\n\r\n.social-media li {\r\n  display: inline-block;\r\n  padding: 0 15px;\r\n}\r\n\r\n.icon--small {\r\n  width: 32px;\r\n  height: 32px;\r\n  fill: #2f2f2f;\r\n}\r\n\r\n.icon--mini {\r\n  width: 16px;\r\n  height: 16px;\r\n  fill: #2f2f2f;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbGliL2NvbXBvbmVudHMvc29jaWFsLW1lZGlhL3NvY2lhbC1tZWRpYS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1QsVUFBVTtFQUNWLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFLHFCQUFxQjtFQUNyQixlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsV0FBVztFQUNYLFlBQVk7RUFDWixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsWUFBWTtFQUNaLGFBQWE7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2xpYi9jb21wb25lbnRzL3NvY2lhbC1tZWRpYS9zb2NpYWwtbWVkaWEuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNvY2lhbC1tZWRpYSB7XHJcbiAgbWFyZ2luOiAwO1xyXG4gIHBhZGRpbmc6IDA7XHJcbiAgZGlzcGxheTogaW5saW5lLWZsZXg7XHJcbn1cclxuXHJcbi5zb2NpYWwtbWVkaWEgbGkge1xyXG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICBwYWRkaW5nOiAwIDE1cHg7XHJcbn1cclxuXHJcbi5pY29uLS1zbWFsbCB7XHJcbiAgd2lkdGg6IDMycHg7XHJcbiAgaGVpZ2h0OiAzMnB4O1xyXG4gIGZpbGw6ICMyZjJmMmY7XHJcbn1cclxuXHJcbi5pY29uLS1taW5pIHtcclxuICB3aWR0aDogMTZweDtcclxuICBoZWlnaHQ6IDE2cHg7XHJcbiAgZmlsbDogIzJmMmYyZjtcclxufVxyXG4iXX0= */"
-
-/***/ }),
-
-/***/ "./src/app/lib/components/social-media/social-media.html":
-/*!***************************************************************!*\
-  !*** ./src/app/lib/components/social-media/social-media.html ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<ul class=\"social-media\">\r\n  <li>\r\n    <a href=\"https://plus.google.com/101327672854263730148\">\r\n      <svg class=\"icon--mini\" highlight>\r\n        <use xlink:href=\"#icon-gplus\"></use>\r\n      </svg>\r\n    </a>\r\n  </li>\r\n  <li>\r\n    <a href=\"https://github.com/ivanhoinacki\" >\r\n      <svg class=\"icon--mini\" highlight>\r\n        <use xlink:href=\"#icon-github\"></use>\r\n      </svg>\r\n    </a>\r\n  </li>\r\n  <li>\r\n    <a href=\"https://twitter.com/ivanhoinacki\">\r\n      <svg class=\"icon--mini\" highlight>\r\n        <use xlink:href=\"#icon-twitter\"></use>\r\n      </svg>\r\n    </a>\r\n  </li>\r\n</ul>\r\n"
-
-/***/ }),
-
-/***/ "./src/app/lib/components/social-media/social-media.module.ts":
-/*!********************************************************************!*\
-  !*** ./src/app/lib/components/social-media/social-media.module.ts ***!
-  \********************************************************************/
+/***/ "./src/app/lib/components/socialMedia/socialMedia.module.ts":
+/*!******************************************************************!*\
+  !*** ./src/app/lib/components/socialMedia/socialMedia.module.ts ***!
+  \******************************************************************/
 /*! exports provided: SocialMediaModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -781,10 +764,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return SocialMediaModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _social_media_comp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./social-media.comp */ "./src/app/lib/components/social-media/social-media.comp.ts");
+/* harmony import */ var _socialMedia_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./socialMedia.component */ "./src/app/lib/components/socialMedia/socialMedia.component.ts");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-
 
 
 
@@ -794,453 +775,12 @@ var SocialMediaModule = /** @class */ (function () {
     }
     SocialMediaModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"], _angular_material__WEBPACK_IMPORTED_MODULE_4__["MatIconModule"]],
-            exports: [_social_media_comp__WEBPACK_IMPORTED_MODULE_2__["SocialMediaComp"]],
-            declarations: [_social_media_comp__WEBPACK_IMPORTED_MODULE_2__["SocialMediaComp"]],
+            imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"]],
+            exports: [_socialMedia_component__WEBPACK_IMPORTED_MODULE_2__["SocialMediaComponent"]],
+            declarations: [_socialMedia_component__WEBPACK_IMPORTED_MODULE_2__["SocialMediaComponent"]],
         })
     ], SocialMediaModule);
     return SocialMediaModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/themePicker/index.ts":
-/*!*****************************************************!*\
-  !*** ./src/app/lib/components/themePicker/index.ts ***!
-  \*****************************************************/
-/*! exports provided: StyleManagerService, ThemeStorageService, ThemePickerComponent, ThemePickerModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _styleManager_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styleManager.service */ "./src/app/lib/components/themePicker/styleManager.service.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StyleManagerService", function() { return _styleManager_service__WEBPACK_IMPORTED_MODULE_0__["StyleManagerService"]; });
-
-/* harmony import */ var _themeStorage_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./themeStorage.service */ "./src/app/lib/components/themePicker/themeStorage.service.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeStorageService", function() { return _themeStorage_service__WEBPACK_IMPORTED_MODULE_1__["ThemeStorageService"]; });
-
-/* harmony import */ var _themePicker_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./themePicker.component */ "./src/app/lib/components/themePicker/themePicker.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemePickerComponent", function() { return _themePicker_component__WEBPACK_IMPORTED_MODULE_2__["ThemePickerComponent"]; });
-
-/* harmony import */ var _themePicker_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./themePicker.module */ "./src/app/lib/components/themePicker/themePicker.module.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemePickerModule", function() { return _themePicker_module__WEBPACK_IMPORTED_MODULE_3__["ThemePickerModule"]; });
-
-
-
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/themePicker/styleManager.service.ts":
-/*!********************************************************************!*\
-  !*** ./src/app/lib/components/themePicker/styleManager.service.ts ***!
-  \********************************************************************/
-/*! exports provided: StyleManagerService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyleManagerService", function() { return StyleManagerService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
-
-/**
- * Class for managing stylesheets. Stylesheets are loaded into named slots so that they can be
- * removed or changed later.
- */
-var StyleManagerService = /** @class */ (function () {
-    function StyleManagerService() {
-    }
-    /**
-     * Set the stylesheet with the specified key.
-     */
-    StyleManagerService.prototype.setStyle = function (key, href) {
-        getLinkElementForKey(key).setAttribute('href', href);
-    };
-    /**
-     * Remove the stylesheet with the specified key.
-     */
-    StyleManagerService.prototype.removeStyle = function (key) {
-        var existingLinkElement = getExistingLinkElementByKey(key);
-        if (existingLinkElement) {
-            document.head.removeChild(existingLinkElement);
-        }
-    };
-    StyleManagerService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
-    ], StyleManagerService);
-    return StyleManagerService;
-}());
-
-function getLinkElementForKey(key) {
-    return getExistingLinkElementByKey(key) || createLinkElementWithKey(key);
-}
-function getExistingLinkElementByKey(key) {
-    return document.head.querySelector("link[rel=\"stylesheet\"]." + getClassNameForKey(key));
-}
-function createLinkElementWithKey(key) {
-    var linkEl = document.createElement('link');
-    linkEl.setAttribute('rel', 'stylesheet');
-    linkEl.classList.add(getClassNameForKey(key));
-    document.head.appendChild(linkEl);
-    return linkEl;
-}
-function getClassNameForKey(key) {
-    return "style-manager-" + key;
-}
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/themePicker/themePicker.component.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/lib/components/themePicker/themePicker.component.html ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<button mat-button id=\"selectTheme\" [mat-menu-trigger-for]=\"themeMenu\" matTooltip=\"Selecione uma cor!\"\r\n        tabindex=\"-1\">\r\n  <mat-icon>format_color_fill</mat-icon>\r\n</button>\r\n\r\n<!-- TODO: replace use of `mat-menu` here with a custom overlay -->\r\n<mat-menu class=\"docs-theme-picker-menu\" #themeMenu=\"matMenu\" x-position=\"before\">\r\n  <mat-grid-list cols=\"2\">\r\n    <mat-grid-tile *ngFor=\"let theme of themes\">\r\n      <div mat-menu-item (click)=\"installTheme(theme)\">\r\n        <div class=\"docs-theme-picker-swatch\">\r\n          <mat-icon class=\"docs-theme-chosen-icon\" *ngIf=\"currentTheme === theme\">check_circle</mat-icon>\r\n          <div class=\"docs-theme-picker-primary\" [style.background]=\"theme.primary\"></div>\r\n        </div>\r\n      </div>\r\n    </mat-grid-tile>\r\n  </mat-grid-list>\r\n</mat-menu>"
-
-/***/ }),
-
-/***/ "./src/app/lib/components/themePicker/themePicker.component.scss":
-/*!***********************************************************************!*\
-  !*** ./src/app/lib/components/themePicker/themePicker.component.scss ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".docs-theme-picker-menu .mat-menu-content {\n  padding: 8px; }\n\n.docs-theme-picker-menu [mat-menu-item] {\n  flex: 0 0 auto;\n  padding: 0;\n  overflow: hidden; }\n\n.docs-theme-picker-menu .docs-theme-picker-swatch {\n  position: relative;\n  width: 36px;\n  height: 36px;\n  margin: 6px;\n  border-radius: 50%;\n  overflow: hidden; }\n\n.docs-theme-picker-menu .docs-theme-picker-swatch .docs-theme-chosen-icon {\n    color: white;\n    position: absolute;\n    left: 50%;\n    top: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%); }\n\n.docs-theme-picker-menu .docs-theme-picker-swatch::after {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    box-sizing: border-box;\n    border: 1px solid rgba(0, 0, 0, 0.2);\n    border-radius: 50%; }\n\n.docs-theme-picker-menu .docs-theme-picker-primary {\n  width: 100%;\n  height: 100%; }\n\n.docs-theme-picker-menu .docs-theme-picker-accent {\n  position: absolute;\n  bottom: 6px;\n  width: 100%;\n  height: 6px; }\n\n#selectTheme {\n  height: 100% !important;\n  min-width: 100%;\n  padding: 0; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbGliL2NvbXBvbmVudHMvdGhlbWVQaWNrZXIvQzpcXFVzZXJzXFxpdmFuX1xcZ2l0TGFiXFxpdmFuaG9pbmFja2kuZ2l0aHViLmlvXFxjbGllbnQvc3JjXFxhcHBcXGxpYlxcY29tcG9uZW50c1xcdGhlbWVQaWNrZXJcXHRoZW1lUGlja2VyLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU9BO0VBRUksWUFUMkIsRUFBQTs7QUFPL0I7RUFNSSxjQUFjO0VBQ2QsVUFBVTtFQUNWLGdCQUFnQixFQUFBOztBQVJwQjtFQVlJLGtCQUFrQjtFQUNsQixXQWpCMkI7RUFrQjNCLFlBbEIyQjtFQW1CM0IsV0FBc0U7RUFDdEUsa0JBQWtCO0VBQ2xCLGdCQUFnQixFQUFBOztBQWpCcEI7SUFvQk0sWUFBWTtJQUNaLGtCQUFrQjtJQUVsQixTQUFTO0lBQUUsUUFBUTtJQUNuQix3Q0FBZ0M7WUFBaEMsZ0NBQWdDLEVBQUE7O0FBeEJ0QztJQTRCTSxXQUFXO0lBQ1gsa0JBQWtCO0lBQ2xCLE1BQU07SUFDTixPQUFPO0lBQ1AsV0FBVztJQUNYLFlBQVk7SUFDWixzQkFBc0I7SUFDdEIsb0NBQWdDO0lBQ2hDLGtCQUFrQixFQUFBOztBQXBDeEI7RUF5Q0ksV0FBVztFQUNYLFlBQVksRUFBQTs7QUExQ2hCO0VBOENJLGtCQUFrQjtFQUNsQixXQWxEaUM7RUFtRGpDLFdBQVc7RUFDWCxXQXBEaUMsRUFBQTs7QUF1RHJDO0VBQ0UsdUJBQXVCO0VBQ3ZCLGVBQWU7RUFDZixVQUFVLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9saWIvY29tcG9uZW50cy90aGVtZVBpY2tlci90aGVtZVBpY2tlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIiR0aGVtZS1waWNrZXItbWVudS1wYWRkaW5nOiA4cHg7XHJcbiR0aGVtZS1waWNrZXItZ3JpZC1jZWxsLXNpemU6IDQ4cHg7XHJcbiR0aGVtZS1waWNrZXItZ3JpZC1jZWxscy1wZXItcm93OiAyO1xyXG4kdGhlbWUtcGlja2VyLXN3YXRjaC1zaXplOiAzNnB4O1xyXG4kdGhlbWUtcGlja2VyLWFjY2VudC1zdHJpcGUtc2l6ZTogNnB4O1xyXG5cclxuXHJcbi5kb2NzLXRoZW1lLXBpY2tlci1tZW51IHsgXHJcbiAgLm1hdC1tZW51LWNvbnRlbnQge1xyXG4gICAgcGFkZGluZzogJHRoZW1lLXBpY2tlci1tZW51LXBhZGRpbmc7XHJcbiAgfVxyXG5cclxuICBbbWF0LW1lbnUtaXRlbV0ge1xyXG4gICAgZmxleDogMCAwIGF1dG87XHJcbiAgICBwYWRkaW5nOiAwO1xyXG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuICB9XHJcblxyXG4gIC5kb2NzLXRoZW1lLXBpY2tlci1zd2F0Y2gge1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgd2lkdGg6ICR0aGVtZS1waWNrZXItc3dhdGNoLXNpemU7XHJcbiAgICBoZWlnaHQ6ICR0aGVtZS1waWNrZXItc3dhdGNoLXNpemU7XHJcbiAgICBtYXJnaW46ICgkdGhlbWUtcGlja2VyLWdyaWQtY2VsbC1zaXplIC0gJHRoZW1lLXBpY2tlci1zd2F0Y2gtc2l6ZSkgLyAyO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcclxuXHJcbiAgICAuZG9jcy10aGVtZS1jaG9zZW4taWNvbiB7XHJcbiAgICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICBcclxuICAgICAgbGVmdDogNTAlOyB0b3A6IDUwJTtcclxuICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XHJcbiAgICB9XHJcblxyXG4gICAgJjo6YWZ0ZXIge1xyXG4gICAgICBjb250ZW50OiAnJztcclxuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICB0b3A6IDA7XHJcbiAgICAgIGxlZnQ6IDA7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwwLDAsLjIpO1xyXG4gICAgICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAuZG9jcy10aGVtZS1waWNrZXItcHJpbWFyeSB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGhlaWdodDogMTAwJTtcclxuICB9XHJcblxyXG4gIC5kb2NzLXRoZW1lLXBpY2tlci1hY2NlbnQge1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgYm90dG9tOiAkdGhlbWUtcGlja2VyLWFjY2VudC1zdHJpcGUtc2l6ZTtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAkdGhlbWUtcGlja2VyLWFjY2VudC1zdHJpcGUtc2l6ZTtcclxuICB9XHJcbn1cclxuI3NlbGVjdFRoZW1lIHtcclxuICBoZWlnaHQ6IDEwMCUgIWltcG9ydGFudDtcclxuICBtaW4td2lkdGg6IDEwMCU7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuIl19 */"
-
-/***/ }),
-
-/***/ "./src/app/lib/components/themePicker/themePicker.component.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/lib/components/themePicker/themePicker.component.ts ***!
-  \*********************************************************************/
-/*! exports provided: ThemePickerComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemePickerComponent", function() { return ThemePickerComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _styleManager_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styleManager.service */ "./src/app/lib/components/themePicker/styleManager.service.ts");
-/* harmony import */ var _themeStorage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./themeStorage.service */ "./src/app/lib/components/themePicker/themeStorage.service.ts");
-
-
-
-
-var ThemePickerComponent = /** @class */ (function () {
-    function ThemePickerComponent(styleManager, _themeStorage) {
-        this.styleManager = styleManager;
-        this._themeStorage = _themeStorage;
-        this.themes = [
-            {
-                primary: '#673AB7',
-                accent: '#FFC107',
-                href: 'deeppurple-amber.css',
-                isDark: false,
-            },
-            {
-                primary: '#3F51B5',
-                accent: '#E91E63',
-                href: 'indigo-pink.css',
-                isDark: false,
-            },
-            {
-                primary: '#E91E63',
-                accent: '#607D8B',
-                href: 'pink-bluegrey.css',
-                isDark: false,
-            },
-            {
-                primary: '#9C27B0',
-                accent: '#4CAF50',
-                href: 'purple-green.css',
-                isDark: false,
-            },
-        ];
-        var currentTheme = this._themeStorage.getStoredTheme();
-        if (currentTheme) {
-            this.installTheme(currentTheme);
-        }
-    }
-    ThemePickerComponent.prototype.ngOnInit = function () {
-        // this._themeStorage.clearStorage();
-        // let themeCurrent = this._themeStorage.getStoredTheme();
-        // if (themeCurrent) {
-        //   this.styleManager.setStyle('theme', `assets/css/${themeCurrent.href}`);
-        // } else {
-        //   this.styleManager.setStyle('theme', `assets/css/indigo-pink.css`);
-        // }
-    };
-    ThemePickerComponent.prototype.installTheme = function (theme) {
-        this.currentTheme = this._getCurrentThemeFromHref(theme.href);
-        if (theme.isDefault) {
-            this.styleManager.removeStyle('theme');
-        }
-        else {
-            this.styleManager.setStyle('theme', "assets/css/" + theme.href);
-        }
-        if (this.currentTheme) {
-            this._themeStorage.storeTheme(this.currentTheme);
-        }
-    };
-    ThemePickerComponent.prototype._getCurrentThemeFromHref = function (href) {
-        return this.themes.find(function (theme) { return theme.href === href; });
-    };
-    ThemePickerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'limber-theme-picker',
-            template: __webpack_require__(/*! ./themePicker.component.html */ "./src/app/lib/components/themePicker/themePicker.component.html"),
-            changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectionStrategy"].OnPush,
-            encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
-            styles: [__webpack_require__(/*! ./themePicker.component.scss */ "./src/app/lib/components/themePicker/themePicker.component.scss")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_styleManager_service__WEBPACK_IMPORTED_MODULE_2__["StyleManagerService"], _themeStorage_service__WEBPACK_IMPORTED_MODULE_3__["ThemeStorageService"]])
-    ], ThemePickerComponent);
-    return ThemePickerComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/themePicker/themePicker.module.ts":
-/*!******************************************************************!*\
-  !*** ./src/app/lib/components/themePicker/themePicker.module.ts ***!
-  \******************************************************************/
-/*! exports provided: ThemePickerModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemePickerModule", function() { return ThemePickerModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _themePicker_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./themePicker.component */ "./src/app/lib/components/themePicker/themePicker.component.ts");
-/* harmony import */ var _styleManager_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styleManager.service */ "./src/app/lib/components/themePicker/styleManager.service.ts");
-/* harmony import */ var _themeStorage_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./themeStorage.service */ "./src/app/lib/components/themePicker/themeStorage.service.ts");
-
-
-
-
-
-
-
-var ThemePickerModule = /** @class */ (function () {
-    function ThemePickerModule() {
-    }
-    ThemePickerModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            imports: [
-                _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatButtonModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatIconModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatMenuModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatGridListModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_3__["MatTooltipModule"],
-                _angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"]
-            ],
-            exports: [_themePicker_component__WEBPACK_IMPORTED_MODULE_4__["ThemePickerComponent"]],
-            declarations: [_themePicker_component__WEBPACK_IMPORTED_MODULE_4__["ThemePickerComponent"]],
-            providers: [_styleManager_service__WEBPACK_IMPORTED_MODULE_5__["StyleManagerService"], _themeStorage_service__WEBPACK_IMPORTED_MODULE_6__["ThemeStorageService"]],
-        })
-    ], ThemePickerModule);
-    return ThemePickerModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/themePicker/themeStorage.service.ts":
-/*!********************************************************************!*\
-  !*** ./src/app/lib/components/themePicker/themeStorage.service.ts ***!
-  \********************************************************************/
-/*! exports provided: ThemeStorageService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemeStorageService", function() { return ThemeStorageService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
-
-var ThemeStorageService = /** @class */ (function () {
-    function ThemeStorageService() {
-        this.onThemeUpdate = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["EventEmitter"]();
-    }
-    ThemeStorageService_1 = ThemeStorageService;
-    ThemeStorageService.prototype.storeTheme = function (theme) {
-        try {
-            window.localStorage[ThemeStorageService_1.storageKey] = JSON.stringify(theme);
-        }
-        catch (e) { }
-        this.onThemeUpdate.emit(theme);
-    };
-    ThemeStorageService.prototype.getStoredTheme = function () {
-        try {
-            return JSON.parse(window.localStorage[ThemeStorageService_1.storageKey] || null);
-        }
-        catch (e) {
-            return null;
-        }
-    };
-    ThemeStorageService.prototype.clearStorage = function () {
-        try {
-            window.localStorage.removeItem(ThemeStorageService_1.storageKey);
-        }
-        catch (e) { }
-    };
-    var ThemeStorageService_1;
-    ThemeStorageService.storageKey = 'docs-theme-storage-current';
-    ThemeStorageService = ThemeStorageService_1 = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])()
-    ], ThemeStorageService);
-    return ThemeStorageService;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/directive/highlight/highlight.directive.ts":
-/*!****************************************************************!*\
-  !*** ./src/app/lib/directive/highlight/highlight.directive.ts ***!
-  \****************************************************************/
-/*! exports provided: HighlightDirective */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HighlightDirective", function() { return HighlightDirective; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
-
-var HighlightDirective = /** @class */ (function () {
-    function HighlightDirective(el, renderer) {
-        this.el = el;
-        this.renderer = renderer;
-    }
-    HighlightDirective.prototype.onMouseEnter = function () {
-        this.highlight('#f4f4f4');
-    };
-    HighlightDirective.prototype.onMouseLeave = function () {
-        this.highlight('#000000');
-    };
-    HighlightDirective.prototype.highlight = function (color) {
-        this.el.nativeElement.style.fill = color;
-    };
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"])('mouseenter'),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Function),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", []),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:returntype", void 0)
-    ], HighlightDirective.prototype, "onMouseEnter", null);
-    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"])('mouseleave'),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Function),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", []),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:returntype", void 0)
-    ], HighlightDirective.prototype, "onMouseLeave", null);
-    HighlightDirective = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"])({
-            selector: '[highlight]'
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer"]])
-    ], HighlightDirective);
-    return HighlightDirective;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/material.module.ts":
-/*!****************************************!*\
-  !*** ./src/app/lib/material.module.ts ***!
-  \****************************************/
-/*! exports provided: MaterialModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MaterialModule", function() { return MaterialModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/flex-layout */ "./node_modules/@angular/flex-layout/esm5/flex-layout.es5.js");
-/* harmony import */ var _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/cdk/drag-drop */ "./node_modules/@angular/cdk/esm5/drag-drop.es5.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-
-
-
-
-
-
-var modulesMaterial = [
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatButtonModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatIconModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDividerModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatSnackBarModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatCardModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatSelectModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatProgressBarModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDatepickerModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatNativeDateModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatFormFieldModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatPaginatorModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatTableModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatSortModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatProgressSpinnerModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatExpansionModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatTabsModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatGridListModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatSlideToggleModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatTooltipModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatChipsModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatMenuModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatTableModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatCheckboxModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatInputModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatSelectModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatCardModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatPaginatorModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatSortModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatDialogModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatAutocompleteModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatToolbarModule"],
-    _angular_flex_layout__WEBPACK_IMPORTED_MODULE_3__["FlexLayoutModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatBottomSheetModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatRadioModule"],
-    _angular_cdk_drag_drop__WEBPACK_IMPORTED_MODULE_4__["DragDropModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatButtonToggleModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatSidenavModule"],
-    _angular_material__WEBPACK_IMPORTED_MODULE_5__["MatStepperModule"]
-];
-var MaterialModule = /** @class */ (function () {
-    function MaterialModule() {
-    }
-    MaterialModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            imports: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"]].concat(modulesMaterial),
-            exports: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ReactiveFormsModule"]].concat(modulesMaterial),
-            declarations: [],
-            providers: []
-        })
-    ], MaterialModule);
-    return MaterialModule;
 }());
 
 

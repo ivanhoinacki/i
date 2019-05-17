@@ -40,6 +40,13 @@ var MainComponent = /** @class */ (function () {
     function MainComponent() {
     }
     MainComponent.prototype.ngOnInit = function () {
+        $('.description').typed({
+            strings: [
+                'web deev..', 'Web Project Coordinator ;)'
+            ],
+            backDelay: 300,
+            typeSpeed: 30
+        });
     };
     MainComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
