@@ -463,6 +463,251 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/comp/components/icons/icons.component.html":
+/*!************************************************************!*\
+  !*** ./src/app/comp/components/icons/icons.component.html ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<svg style=\"position: absolute; width: 0; height: 0;\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <defs>\r\n        <symbol id=\"icon-chevron-down\" viewBox=\"0 0 640 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>chevron-down</title>\r\n            <path class=\"path1\" d=\"M512 320l-192 192-192-192-128 128 320 320 320-320-128-128z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-mic\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>mic</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M480 704c88.366 0 160-71.634 160-160v-384c0-88.366-71.634-160-160-160s-160 71.634-160 160v384c0 88.366 71.636 160 160 160zM704 448v96c0 123.71-100.29 224-224 224-123.712 0-224-100.29-224-224v-96h-64v96c0 148.238 112.004 270.3 256 286.22v129.78h-128v64h320v-64h-128v-129.78c143.994-15.92 256-137.982 256-286.22v-96h-64z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-phone\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>phone</title>\r\n            <path class=\"path1\" d=\"M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-envelop\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>envelop</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M928 128h-832c-52.8 0-96 43.2-96 96v640c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-640c0-52.8-43.2-96-96-96zM398.74 550.372l-270.74 210.892v-501.642l270.74 290.75zM176.38 256h671.24l-335.62 252-335.62-252zM409.288 561.698l102.712 110.302 102.71-110.302 210.554 270.302h-626.528l210.552-270.302zM625.26 550.372l270.74-290.75v501.642l-270.74-210.892z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-stats\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>stats</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M128 896h896v128h-1024v-1024h128zM288 832c-53.020 0-96-42.98-96-96s42.98-96 96-96c2.828 0 5.622 0.148 8.388 0.386l103.192-171.986c-9.84-15.070-15.58-33.062-15.58-52.402 0-53.020 42.98-96 96-96s96 42.98 96 96c0 19.342-5.74 37.332-15.58 52.402l103.192 171.986c2.766-0.238 5.56-0.386 8.388-0.386 2.136 0 4.248 0.094 6.35 0.23l170.356-298.122c-10.536-15.408-16.706-34.036-16.706-54.11 0-53.020 42.98-96 96-96s96 42.98 96 96c0 53.020-42.98 96-96 96-2.14 0-4.248-0.094-6.35-0.232l-170.356 298.124c10.536 15.406 16.706 34.036 16.706 54.11 0 53.020-42.98 96-96 96s-96-42.98-96-96c0-19.34 5.74-37.332 15.578-52.402l-103.19-171.984c-2.766 0.238-5.56 0.386-8.388 0.386s-5.622-0.146-8.388-0.386l-103.192 171.986c9.84 15.068 15.58 33.060 15.58 52.4 0 53.020-42.98 96-96 96z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-eye\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>eye</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M512 192c-223.318 0-416.882 130.042-512 320 95.118 189.958 288.682 320 512 320 223.312 0 416.876-130.042 512-320-95.116-189.958-288.688-320-512-320zM764.45 361.704c60.162 38.374 111.142 89.774 149.434 150.296-38.292 60.522-89.274 111.922-149.436 150.296-75.594 48.218-162.89 73.704-252.448 73.704-89.56 0-176.858-25.486-252.452-73.704-60.158-38.372-111.138-89.772-149.432-150.296 38.292-60.524 89.274-111.924 149.434-150.296 3.918-2.5 7.876-4.922 11.86-7.3-9.96 27.328-15.41 56.822-15.41 87.596 0 141.382 114.616 256 256 256 141.382 0 256-114.618 256-256 0-30.774-5.452-60.268-15.408-87.598 3.978 2.378 7.938 4.802 11.858 7.302v0zM512 416c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.982 96 96z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-play\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>play</title>\r\n            <path class=\"path1\" d=\"M192 128l640 384-640 384z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-new-tab\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>new-tab</title>\r\n            <path class=\"path1\" d=\"M192 64v768h768v-768h-768zM896 768h-640v-640h640v640zM128 896v-672l-64-64v800h800l-64-64h-672z\"></path>\r\n            <path class=\"path2\" d=\"M352 256l160 160-192 192 96 96 192-192 160 160v-416z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-terminal\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>terminal</title>\r\n            <path class=\"path1\" d=\"M0 64v896h1024v-896h-1024zM960 896h-896v-768h896v768zM896 192h-768v640h768v-640zM448 512h-64v64h-64v64h-64v-64h64v-64h64v-64h-64v-64h-64v-64h64v64h64v64h64v64zM704 640h-192v-64h192v64z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-gplus\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>gplus</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M325.8 457.4v111.8h184.8c-7.4 48-55.8 140.6-184.8 140.6-111.2 0-202-92.2-202-205.8s90.8-205.8 202-205.8c63.4 0 105.6 27 129.8 50.2l88.4-85.2c-56.8-53-130.4-85.2-218.2-85.2-180.2 0.2-325.8 145.8-325.8 326s145.6 325.8 325.8 325.8c188 0 312.8-132.2 312.8-318.4 0-21.4-2.4-37.8-5.2-54h-307.6z\"></path>\r\n            <path class=\"path2\" d=\"M1024 448h-96v-96h-96v96h-96v96h96v96h96v-96h96z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-twitter\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>twitter</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-github\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>github</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M512.008 12.642c-282.738 0-512.008 229.218-512.008 511.998 0 226.214 146.704 418.132 350.136 485.836 25.586 4.738 34.992-11.11 34.992-24.632 0-12.204-0.48-52.542-0.696-95.324-142.448 30.976-172.504-60.41-172.504-60.41-23.282-59.176-56.848-74.916-56.848-74.916-46.452-31.778 3.51-31.124 3.51-31.124 51.4 3.61 78.476 52.766 78.476 52.766 45.672 78.27 119.776 55.64 149.004 42.558 4.588-33.086 17.852-55.68 32.506-68.464-113.73-12.942-233.276-56.85-233.276-253.032 0-55.898 20.004-101.574 52.76-137.428-5.316-12.9-22.854-64.972 4.952-135.5 0 0 43.006-13.752 140.84 52.49 40.836-11.348 84.636-17.036 128.154-17.234 43.502 0.198 87.336 5.886 128.256 17.234 97.734-66.244 140.656-52.49 140.656-52.49 27.872 70.528 10.35 122.6 5.036 135.5 32.82 35.856 52.694 81.532 52.694 137.428 0 196.654-119.778 239.95-233.79 252.624 18.364 15.89 34.724 47.046 34.724 94.812 0 68.508-0.596 123.644-0.596 140.508 0 13.628 9.222 29.594 35.172 24.566 203.322-67.776 349.842-259.626 349.842-485.768 0-282.78-229.234-511.998-511.992-511.998z\"></path>\r\n        </symbol>\r\n    </defs>\r\n</svg>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/comp/components/icons/icons.component.scss":
+/*!************************************************************!*\
+  !*** ./src/app/comp/components/icons/icons.component.scss ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".social-media {\n  margin: 0;\n  padding: 0;\n  display: inline-flex; }\n\n.social-media li {\n  display: inline-block;\n  padding: 0 15px; }\n\n.icon--small {\n  width: 32px;\n  height: 32px;\n  fill: #2f2f2f; }\n\n.icon--mini {\n  width: 16px;\n  height: 16px;\n  fill: #2f2f2f; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcC9jb21wb25lbnRzL2ljb25zL0M6XFxVc2Vyc1xcaXZhbl9cXGdpdExhYlxcaXZhbmhvaW5hY2tpLmdpdGh1Yi5pb1xcY2xpZW50L3NyY1xcYXBwXFxjb21wXFxjb21wb25lbnRzXFxpY29uc1xcaWNvbnMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxTQUFTO0VBQ1QsVUFBVTtFQUNWLG9CQUFvQixFQUFBOztBQUd4QjtFQUNJLHFCQUFxQjtFQUNyQixlQUFlLEVBQUE7O0FBR25CO0VBQ0ksV0FBVztFQUNYLFlBQVk7RUFDWixhQUFhLEVBQUE7O0FBR2pCO0VBQ0ksV0FBVztFQUNYLFlBQVk7RUFDWixhQUFhLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9jb21wL2NvbXBvbmVudHMvaWNvbnMvaWNvbnMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29jaWFsLW1lZGlhIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcclxufVxyXG5cclxuLnNvY2lhbC1tZWRpYSBsaSB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAwIDE1cHg7XHJcbn1cclxuXHJcbi5pY29uLS1zbWFsbCB7XHJcbiAgICB3aWR0aDogMzJweDtcclxuICAgIGhlaWdodDogMzJweDtcclxuICAgIGZpbGw6ICMyZjJmMmY7XHJcbn1cclxuXHJcbi5pY29uLS1taW5pIHtcclxuICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgaGVpZ2h0OiAxNnB4O1xyXG4gICAgZmlsbDogIzJmMmYyZjtcclxufVxyXG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/comp/components/icons/icons.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/comp/components/icons/icons.component.ts ***!
+  \**********************************************************/
+/*! exports provided: IconsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsComponent", function() { return IconsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var IconsComponent = /** @class */ (function () {
+    function IconsComponent() {
+    }
+    IconsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'icons',
+            template: __webpack_require__(/*! ./icons.component.html */ "./src/app/comp/components/icons/icons.component.html"),
+            styles: [__webpack_require__(/*! ./icons.component.scss */ "./src/app/comp/components/icons/icons.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], IconsComponent);
+    return IconsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/comp/components/icons/icons.module.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/comp/components/icons/icons.module.ts ***!
+  \*******************************************************/
+/*! exports provided: IconsModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return IconsModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _icons_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./icons.component */ "./src/app/comp/components/icons/icons.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+
+
+
+
+var IconsModule = /** @class */ (function () {
+    function IconsModule() {
+    }
+    IconsModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"]],
+            exports: [_icons_component__WEBPACK_IMPORTED_MODULE_2__["IconsComponent"]],
+            declarations: [_icons_component__WEBPACK_IMPORTED_MODULE_2__["IconsComponent"]],
+        })
+    ], IconsModule);
+    return IconsModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/comp/components/icons/index.ts":
+/*!************************************************!*\
+  !*** ./src/app/comp/components/icons/index.ts ***!
+  \************************************************/
+/*! exports provided: IconsComponent, IconsModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _icons_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./icons.component */ "./src/app/comp/components/icons/icons.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsComponent", function() { return _icons_component__WEBPACK_IMPORTED_MODULE_0__["IconsComponent"]; });
+
+/* harmony import */ var _icons_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons.module */ "./src/app/comp/components/icons/icons.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return _icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"]; });
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/comp/components/index.ts":
+/*!******************************************!*\
+  !*** ./src/app/comp/components/index.ts ***!
+  \******************************************/
+/*! exports provided: SocialMediaComponent, SocialMediaModule, IconsComponent, IconsModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _socialMedia__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./socialMedia */ "./src/app/comp/components/socialMedia/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComponent", function() { return _socialMedia__WEBPACK_IMPORTED_MODULE_0__["SocialMediaComponent"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return _socialMedia__WEBPACK_IMPORTED_MODULE_0__["SocialMediaModule"]; });
+
+/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons */ "./src/app/comp/components/icons/index.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsComponent", function() { return _icons__WEBPACK_IMPORTED_MODULE_1__["IconsComponent"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return _icons__WEBPACK_IMPORTED_MODULE_1__["IconsModule"]; });
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/comp/components/socialMedia/index.ts":
+/*!******************************************************!*\
+  !*** ./src/app/comp/components/socialMedia/index.ts ***!
+  \******************************************************/
+/*! exports provided: SocialMediaComponent, SocialMediaModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _socialMedia_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./socialMedia.component */ "./src/app/comp/components/socialMedia/socialMedia.component.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComponent", function() { return _socialMedia_component__WEBPACK_IMPORTED_MODULE_0__["SocialMediaComponent"]; });
+
+/* harmony import */ var _socialMedia_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./socialMedia.module */ "./src/app/comp/components/socialMedia/socialMedia.module.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return _socialMedia_module__WEBPACK_IMPORTED_MODULE_1__["SocialMediaModule"]; });
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/app/comp/components/socialMedia/socialMedia.component.html":
+/*!************************************************************************!*\
+  !*** ./src/app/comp/components/socialMedia/socialMedia.component.html ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ul class=\"social-media\">\r\n    <li>\r\n        <a href=\"https://plus.google.com/101327672854263730148\">\r\n            <svg class=\"icon--mini\" highlight>\r\n                <use xlink:href=\"#icon-gplus\"></use>\r\n            </svg>\r\n        </a>\r\n    </li>\r\n    <li>\r\n        <a href=\"https://github.com/ivanhoinacki\" >\r\n            <svg class=\"icon--mini\" highlight>\r\n                <use xlink:href=\"#icon-github\"></use>\r\n            </svg>\r\n        </a>\r\n    </li>\r\n    <li>\r\n        <a href=\"https://twitter.com/ivanhoinacki\">\r\n            <svg class=\"icon--mini\" highlight>\r\n                <use xlink:href=\"#icon-twitter\"></use>\r\n            </svg>\r\n        </a>\r\n    </li>\r\n</ul>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/comp/components/socialMedia/socialMedia.component.scss":
+/*!************************************************************************!*\
+  !*** ./src/app/comp/components/socialMedia/socialMedia.component.scss ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".social-media {\n  margin: 0;\n  padding: 0;\n  display: inline-flex; }\n\n.social-media li {\n  display: inline-block;\n  padding: 0 15px; }\n\n.icon--small {\n  width: 32px;\n  height: 32px;\n  fill: #2f2f2f; }\n\n.icon--mini {\n  width: 16px;\n  height: 16px;\n  fill: #2f2f2f; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcC9jb21wb25lbnRzL3NvY2lhbE1lZGlhL0M6XFxVc2Vyc1xcaXZhbl9cXGdpdExhYlxcaXZhbmhvaW5hY2tpLmdpdGh1Yi5pb1xcY2xpZW50L3NyY1xcYXBwXFxjb21wXFxjb21wb25lbnRzXFxzb2NpYWxNZWRpYVxcc29jaWFsTWVkaWEuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxTQUFTO0VBQ1QsVUFBVTtFQUNWLG9CQUFvQixFQUFBOztBQUd4QjtFQUNJLHFCQUFxQjtFQUNyQixlQUFlLEVBQUE7O0FBR25CO0VBQ0ksV0FBVztFQUNYLFlBQVk7RUFDWixhQUFhLEVBQUE7O0FBR2pCO0VBQ0ksV0FBVztFQUNYLFlBQVk7RUFDWixhQUFhLEVBQUEiLCJmaWxlIjoic3JjL2FwcC9jb21wL2NvbXBvbmVudHMvc29jaWFsTWVkaWEvc29jaWFsTWVkaWEuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29jaWFsLW1lZGlhIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcclxufVxyXG5cclxuLnNvY2lhbC1tZWRpYSBsaSB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAwIDE1cHg7XHJcbn1cclxuXHJcbi5pY29uLS1zbWFsbCB7XHJcbiAgICB3aWR0aDogMzJweDtcclxuICAgIGhlaWdodDogMzJweDtcclxuICAgIGZpbGw6ICMyZjJmMmY7XHJcbn1cclxuXHJcbi5pY29uLS1taW5pIHtcclxuICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgaGVpZ2h0OiAxNnB4O1xyXG4gICAgZmlsbDogIzJmMmYyZjtcclxufVxyXG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/comp/components/socialMedia/socialMedia.component.ts":
+/*!**********************************************************************!*\
+  !*** ./src/app/comp/components/socialMedia/socialMedia.component.ts ***!
+  \**********************************************************************/
+/*! exports provided: SocialMediaComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComponent", function() { return SocialMediaComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var SocialMediaComponent = /** @class */ (function () {
+    function SocialMediaComponent() {
+    }
+    SocialMediaComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'social-media',
+            template: __webpack_require__(/*! ./socialMedia.component.html */ "./src/app/comp/components/socialMedia/socialMedia.component.html"),
+            styles: [__webpack_require__(/*! ./socialMedia.component.scss */ "./src/app/comp/components/socialMedia/socialMedia.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], SocialMediaComponent);
+    return SocialMediaComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/comp/components/socialMedia/socialMedia.module.ts":
+/*!*******************************************************************!*\
+  !*** ./src/app/comp/components/socialMedia/socialMedia.module.ts ***!
+  \*******************************************************************/
+/*! exports provided: SocialMediaModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return SocialMediaModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _socialMedia_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./socialMedia.component */ "./src/app/comp/components/socialMedia/socialMedia.component.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
+
+
+
+
+var SocialMediaModule = /** @class */ (function () {
+    function SocialMediaModule() {
+    }
+    SocialMediaModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"]],
+            exports: [_socialMedia_component__WEBPACK_IMPORTED_MODULE_2__["SocialMediaComponent"]],
+            declarations: [_socialMedia_component__WEBPACK_IMPORTED_MODULE_2__["SocialMediaComponent"]],
+        })
+    ], SocialMediaModule);
+    return SocialMediaModule;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/lib.module.ts":
 /*!*******************************!*\
   !*** ./src/app/lib.module.ts ***!
@@ -486,7 +731,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_moment_adapter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material-moment-adapter */ "./node_modules/@angular/material-moment-adapter/esm5/material-moment-adapter.es5.js");
 /* harmony import */ var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common/locales/pt */ "./node_modules/@angular/common/locales/pt.js");
 /* harmony import */ var _angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_angular_common_locales_pt__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _lib_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./lib/components */ "./src/app/lib/components/index.ts");
+/* harmony import */ var _comp_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./comp/components */ "./src/app/comp/components/index.ts");
 
 
 
@@ -510,8 +755,8 @@ var NODE_MODULE = [
 ];
 
 var COMPONENTS = [
-    _lib_components__WEBPACK_IMPORTED_MODULE_10__["IconsModule"],
-    _lib_components__WEBPACK_IMPORTED_MODULE_10__["SocialMediaModule"]
+    _comp_components__WEBPACK_IMPORTED_MODULE_10__["IconsModule"],
+    _comp_components__WEBPACK_IMPORTED_MODULE_10__["SocialMediaModule"]
 ];
 var LibModule = /** @class */ (function () {
     function LibModule() {
@@ -536,251 +781,6 @@ var LibModule = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
     ], LibModule);
     return LibModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/icons/icons.component.html":
-/*!***********************************************************!*\
-  !*** ./src/app/lib/components/icons/icons.component.html ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<svg style=\"position: absolute; width: 0; height: 0;\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n    <defs>\r\n        <symbol id=\"icon-chevron-down\" viewBox=\"0 0 640 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>chevron-down</title>\r\n            <path class=\"path1\" d=\"M512 320l-192 192-192-192-128 128 320 320 320-320-128-128z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-mic\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>mic</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M480 704c88.366 0 160-71.634 160-160v-384c0-88.366-71.634-160-160-160s-160 71.634-160 160v384c0 88.366 71.636 160 160 160zM704 448v96c0 123.71-100.29 224-224 224-123.712 0-224-100.29-224-224v-96h-64v96c0 148.238 112.004 270.3 256 286.22v129.78h-128v64h320v-64h-128v-129.78c143.994-15.92 256-137.982 256-286.22v-96h-64z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-phone\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>phone</title>\r\n            <path class=\"path1\" d=\"M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-envelop\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>envelop</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M928 128h-832c-52.8 0-96 43.2-96 96v640c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-640c0-52.8-43.2-96-96-96zM398.74 550.372l-270.74 210.892v-501.642l270.74 290.75zM176.38 256h671.24l-335.62 252-335.62-252zM409.288 561.698l102.712 110.302 102.71-110.302 210.554 270.302h-626.528l210.552-270.302zM625.26 550.372l270.74-290.75v501.642l-270.74-210.892z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-stats\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>stats</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M128 896h896v128h-1024v-1024h128zM288 832c-53.020 0-96-42.98-96-96s42.98-96 96-96c2.828 0 5.622 0.148 8.388 0.386l103.192-171.986c-9.84-15.070-15.58-33.062-15.58-52.402 0-53.020 42.98-96 96-96s96 42.98 96 96c0 19.342-5.74 37.332-15.58 52.402l103.192 171.986c2.766-0.238 5.56-0.386 8.388-0.386 2.136 0 4.248 0.094 6.35 0.23l170.356-298.122c-10.536-15.408-16.706-34.036-16.706-54.11 0-53.020 42.98-96 96-96s96 42.98 96 96c0 53.020-42.98 96-96 96-2.14 0-4.248-0.094-6.35-0.232l-170.356 298.124c10.536 15.406 16.706 34.036 16.706 54.11 0 53.020-42.98 96-96 96s-96-42.98-96-96c0-19.34 5.74-37.332 15.578-52.402l-103.19-171.984c-2.766 0.238-5.56 0.386-8.388 0.386s-5.622-0.146-8.388-0.386l-103.192 171.986c9.84 15.068 15.58 33.060 15.58 52.4 0 53.020-42.98 96-96 96z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-eye\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>eye</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M512 192c-223.318 0-416.882 130.042-512 320 95.118 189.958 288.682 320 512 320 223.312 0 416.876-130.042 512-320-95.116-189.958-288.688-320-512-320zM764.45 361.704c60.162 38.374 111.142 89.774 149.434 150.296-38.292 60.522-89.274 111.922-149.436 150.296-75.594 48.218-162.89 73.704-252.448 73.704-89.56 0-176.858-25.486-252.452-73.704-60.158-38.372-111.138-89.772-149.432-150.296 38.292-60.524 89.274-111.924 149.434-150.296 3.918-2.5 7.876-4.922 11.86-7.3-9.96 27.328-15.41 56.822-15.41 87.596 0 141.382 114.616 256 256 256 141.382 0 256-114.618 256-256 0-30.774-5.452-60.268-15.408-87.598 3.978 2.378 7.938 4.802 11.858 7.302v0zM512 416c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.982 96 96z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-play\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>play</title>\r\n            <path class=\"path1\" d=\"M192 128l640 384-640 384z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-new-tab\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>new-tab</title>\r\n            <path class=\"path1\" d=\"M192 64v768h768v-768h-768zM896 768h-640v-640h640v640zM128 896v-672l-64-64v800h800l-64-64h-672z\"></path>\r\n            <path class=\"path2\" d=\"M352 256l160 160-192 192 96 96 192-192 160 160v-416z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-terminal\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>terminal</title>\r\n            <path class=\"path1\" d=\"M0 64v896h1024v-896h-1024zM960 896h-896v-768h896v768zM896 192h-768v640h768v-640zM448 512h-64v64h-64v64h-64v-64h64v-64h64v-64h-64v-64h-64v-64h64v64h64v64h64v64zM704 640h-192v-64h192v64z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-gplus\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>gplus</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M325.8 457.4v111.8h184.8c-7.4 48-55.8 140.6-184.8 140.6-111.2 0-202-92.2-202-205.8s90.8-205.8 202-205.8c63.4 0 105.6 27 129.8 50.2l88.4-85.2c-56.8-53-130.4-85.2-218.2-85.2-180.2 0.2-325.8 145.8-325.8 326s145.6 325.8 325.8 325.8c188 0 312.8-132.2 312.8-318.4 0-21.4-2.4-37.8-5.2-54h-307.6z\"></path>\r\n            <path class=\"path2\" d=\"M1024 448h-96v-96h-96v96h-96v96h96v96h96v-96h96z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-twitter\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>twitter</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z\"></path>\r\n        </symbol>\r\n        <symbol id=\"icon-github\" viewBox=\"0 0 1024 1024\" preserveAspectRatio=\"xMidYMid meet\">\r\n            <title>github</title>\r\n            <path\r\n            class=\"path1\"\r\n            d=\"M512.008 12.642c-282.738 0-512.008 229.218-512.008 511.998 0 226.214 146.704 418.132 350.136 485.836 25.586 4.738 34.992-11.11 34.992-24.632 0-12.204-0.48-52.542-0.696-95.324-142.448 30.976-172.504-60.41-172.504-60.41-23.282-59.176-56.848-74.916-56.848-74.916-46.452-31.778 3.51-31.124 3.51-31.124 51.4 3.61 78.476 52.766 78.476 52.766 45.672 78.27 119.776 55.64 149.004 42.558 4.588-33.086 17.852-55.68 32.506-68.464-113.73-12.942-233.276-56.85-233.276-253.032 0-55.898 20.004-101.574 52.76-137.428-5.316-12.9-22.854-64.972 4.952-135.5 0 0 43.006-13.752 140.84 52.49 40.836-11.348 84.636-17.036 128.154-17.234 43.502 0.198 87.336 5.886 128.256 17.234 97.734-66.244 140.656-52.49 140.656-52.49 27.872 70.528 10.35 122.6 5.036 135.5 32.82 35.856 52.694 81.532 52.694 137.428 0 196.654-119.778 239.95-233.79 252.624 18.364 15.89 34.724 47.046 34.724 94.812 0 68.508-0.596 123.644-0.596 140.508 0 13.628 9.222 29.594 35.172 24.566 203.322-67.776 349.842-259.626 349.842-485.768 0-282.78-229.234-511.998-511.992-511.998z\"></path>\r\n        </symbol>\r\n    </defs>\r\n</svg>\r\n"
-
-/***/ }),
-
-/***/ "./src/app/lib/components/icons/icons.component.scss":
-/*!***********************************************************!*\
-  !*** ./src/app/lib/components/icons/icons.component.scss ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".social-media {\n  margin: 0;\n  padding: 0;\n  display: inline-flex; }\n\n.social-media li {\n  display: inline-block;\n  padding: 0 15px; }\n\n.icon--small {\n  width: 32px;\n  height: 32px;\n  fill: #2f2f2f; }\n\n.icon--mini {\n  width: 16px;\n  height: 16px;\n  fill: #2f2f2f; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbGliL2NvbXBvbmVudHMvaWNvbnMvQzpcXFVzZXJzXFxpdmFuX1xcZ2l0TGFiXFxpdmFuaG9pbmFja2kuZ2l0aHViLmlvXFxjbGllbnQvc3JjXFxhcHBcXGxpYlxcY29tcG9uZW50c1xcaWNvbnNcXGljb25zLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksU0FBUztFQUNULFVBQVU7RUFDVixvQkFBb0IsRUFBQTs7QUFHeEI7RUFDSSxxQkFBcUI7RUFDckIsZUFBZSxFQUFBOztBQUduQjtFQUNJLFdBQVc7RUFDWCxZQUFZO0VBQ1osYUFBYSxFQUFBOztBQUdqQjtFQUNJLFdBQVc7RUFDWCxZQUFZO0VBQ1osYUFBYSxFQUFBIiwiZmlsZSI6InNyYy9hcHAvbGliL2NvbXBvbmVudHMvaWNvbnMvaWNvbnMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29jaWFsLW1lZGlhIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcclxufVxyXG5cclxuLnNvY2lhbC1tZWRpYSBsaSB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAwIDE1cHg7XHJcbn1cclxuXHJcbi5pY29uLS1zbWFsbCB7XHJcbiAgICB3aWR0aDogMzJweDtcclxuICAgIGhlaWdodDogMzJweDtcclxuICAgIGZpbGw6ICMyZjJmMmY7XHJcbn1cclxuXHJcbi5pY29uLS1taW5pIHtcclxuICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgaGVpZ2h0OiAxNnB4O1xyXG4gICAgZmlsbDogIzJmMmYyZjtcclxufVxyXG4iXX0= */"
-
-/***/ }),
-
-/***/ "./src/app/lib/components/icons/icons.component.ts":
-/*!*********************************************************!*\
-  !*** ./src/app/lib/components/icons/icons.component.ts ***!
-  \*********************************************************/
-/*! exports provided: IconsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsComponent", function() { return IconsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
-
-var IconsComponent = /** @class */ (function () {
-    function IconsComponent() {
-    }
-    IconsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'icons',
-            template: __webpack_require__(/*! ./icons.component.html */ "./src/app/lib/components/icons/icons.component.html"),
-            styles: [__webpack_require__(/*! ./icons.component.scss */ "./src/app/lib/components/icons/icons.component.scss")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], IconsComponent);
-    return IconsComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/icons/icons.module.ts":
-/*!******************************************************!*\
-  !*** ./src/app/lib/components/icons/icons.module.ts ***!
-  \******************************************************/
-/*! exports provided: IconsModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return IconsModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _icons_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./icons.component */ "./src/app/lib/components/icons/icons.component.ts");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-
-
-
-
-var IconsModule = /** @class */ (function () {
-    function IconsModule() {
-    }
-    IconsModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"]],
-            exports: [_icons_component__WEBPACK_IMPORTED_MODULE_2__["IconsComponent"]],
-            declarations: [_icons_component__WEBPACK_IMPORTED_MODULE_2__["IconsComponent"]],
-        })
-    ], IconsModule);
-    return IconsModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/icons/index.ts":
-/*!***********************************************!*\
-  !*** ./src/app/lib/components/icons/index.ts ***!
-  \***********************************************/
-/*! exports provided: IconsComponent, IconsModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _icons_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./icons.component */ "./src/app/lib/components/icons/icons.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsComponent", function() { return _icons_component__WEBPACK_IMPORTED_MODULE_0__["IconsComponent"]; });
-
-/* harmony import */ var _icons_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons.module */ "./src/app/lib/components/icons/icons.module.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return _icons_module__WEBPACK_IMPORTED_MODULE_1__["IconsModule"]; });
-
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/index.ts":
-/*!*****************************************!*\
-  !*** ./src/app/lib/components/index.ts ***!
-  \*****************************************/
-/*! exports provided: SocialMediaComponent, SocialMediaModule, IconsComponent, IconsModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _socialMedia__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./socialMedia */ "./src/app/lib/components/socialMedia/index.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComponent", function() { return _socialMedia__WEBPACK_IMPORTED_MODULE_0__["SocialMediaComponent"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return _socialMedia__WEBPACK_IMPORTED_MODULE_0__["SocialMediaModule"]; });
-
-/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./icons */ "./src/app/lib/components/icons/index.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsComponent", function() { return _icons__WEBPACK_IMPORTED_MODULE_1__["IconsComponent"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsModule", function() { return _icons__WEBPACK_IMPORTED_MODULE_1__["IconsModule"]; });
-
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/socialMedia/index.ts":
-/*!*****************************************************!*\
-  !*** ./src/app/lib/components/socialMedia/index.ts ***!
-  \*****************************************************/
-/*! exports provided: SocialMediaComponent, SocialMediaModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _socialMedia_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./socialMedia.component */ "./src/app/lib/components/socialMedia/socialMedia.component.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComponent", function() { return _socialMedia_component__WEBPACK_IMPORTED_MODULE_0__["SocialMediaComponent"]; });
-
-/* harmony import */ var _socialMedia_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./socialMedia.module */ "./src/app/lib/components/socialMedia/socialMedia.module.ts");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return _socialMedia_module__WEBPACK_IMPORTED_MODULE_1__["SocialMediaModule"]; });
-
-
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/socialMedia/socialMedia.component.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/lib/components/socialMedia/socialMedia.component.html ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<ul class=\"social-media\">\r\n    <li>\r\n        <a href=\"https://plus.google.com/101327672854263730148\">\r\n            <svg class=\"icon--mini\" highlight>\r\n                <use xlink:href=\"#icon-gplus\"></use>\r\n            </svg>\r\n        </a>\r\n    </li>\r\n    <li>\r\n        <a href=\"https://github.com/ivanhoinacki\" >\r\n            <svg class=\"icon--mini\" highlight>\r\n                <use xlink:href=\"#icon-github\"></use>\r\n            </svg>\r\n        </a>\r\n    </li>\r\n    <li>\r\n        <a href=\"https://twitter.com/ivanhoinacki\">\r\n            <svg class=\"icon--mini\" highlight>\r\n                <use xlink:href=\"#icon-twitter\"></use>\r\n            </svg>\r\n        </a>\r\n    </li>\r\n</ul>\r\n"
-
-/***/ }),
-
-/***/ "./src/app/lib/components/socialMedia/socialMedia.component.scss":
-/*!***********************************************************************!*\
-  !*** ./src/app/lib/components/socialMedia/socialMedia.component.scss ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".social-media {\n  margin: 0;\n  padding: 0;\n  display: inline-flex; }\n\n.social-media li {\n  display: inline-block;\n  padding: 0 15px; }\n\n.icon--small {\n  width: 32px;\n  height: 32px;\n  fill: #2f2f2f; }\n\n.icon--mini {\n  width: 16px;\n  height: 16px;\n  fill: #2f2f2f; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbGliL2NvbXBvbmVudHMvc29jaWFsTWVkaWEvQzpcXFVzZXJzXFxpdmFuX1xcZ2l0TGFiXFxpdmFuaG9pbmFja2kuZ2l0aHViLmlvXFxjbGllbnQvc3JjXFxhcHBcXGxpYlxcY29tcG9uZW50c1xcc29jaWFsTWVkaWFcXHNvY2lhbE1lZGlhLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksU0FBUztFQUNULFVBQVU7RUFDVixvQkFBb0IsRUFBQTs7QUFHeEI7RUFDSSxxQkFBcUI7RUFDckIsZUFBZSxFQUFBOztBQUduQjtFQUNJLFdBQVc7RUFDWCxZQUFZO0VBQ1osYUFBYSxFQUFBOztBQUdqQjtFQUNJLFdBQVc7RUFDWCxZQUFZO0VBQ1osYUFBYSxFQUFBIiwiZmlsZSI6InNyYy9hcHAvbGliL2NvbXBvbmVudHMvc29jaWFsTWVkaWEvc29jaWFsTWVkaWEuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc29jaWFsLW1lZGlhIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDtcclxufVxyXG5cclxuLnNvY2lhbC1tZWRpYSBsaSB7XHJcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICBwYWRkaW5nOiAwIDE1cHg7XHJcbn1cclxuXHJcbi5pY29uLS1zbWFsbCB7XHJcbiAgICB3aWR0aDogMzJweDtcclxuICAgIGhlaWdodDogMzJweDtcclxuICAgIGZpbGw6ICMyZjJmMmY7XHJcbn1cclxuXHJcbi5pY29uLS1taW5pIHtcclxuICAgIHdpZHRoOiAxNnB4O1xyXG4gICAgaGVpZ2h0OiAxNnB4O1xyXG4gICAgZmlsbDogIzJmMmYyZjtcclxufVxyXG4iXX0= */"
-
-/***/ }),
-
-/***/ "./src/app/lib/components/socialMedia/socialMedia.component.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/lib/components/socialMedia/socialMedia.component.ts ***!
-  \*********************************************************************/
-/*! exports provided: SocialMediaComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SocialMediaComponent", function() { return SocialMediaComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-
-
-var SocialMediaComponent = /** @class */ (function () {
-    function SocialMediaComponent() {
-    }
-    SocialMediaComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'social-media',
-            template: __webpack_require__(/*! ./socialMedia.component.html */ "./src/app/lib/components/socialMedia/socialMedia.component.html"),
-            styles: [__webpack_require__(/*! ./socialMedia.component.scss */ "./src/app/lib/components/socialMedia/socialMedia.component.scss")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], SocialMediaComponent);
-    return SocialMediaComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/lib/components/socialMedia/socialMedia.module.ts":
-/*!******************************************************************!*\
-  !*** ./src/app/lib/components/socialMedia/socialMedia.module.ts ***!
-  \******************************************************************/
-/*! exports provided: SocialMediaModule */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SocialMediaModule", function() { return SocialMediaModule; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _socialMedia_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./socialMedia.component */ "./src/app/lib/components/socialMedia/socialMedia.component.ts");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/fesm5/common.js");
-
-
-
-
-var SocialMediaModule = /** @class */ (function () {
-    function SocialMediaModule() {
-    }
-    SocialMediaModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-            imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"]],
-            exports: [_socialMedia_component__WEBPACK_IMPORTED_MODULE_2__["SocialMediaComponent"]],
-            declarations: [_socialMedia_component__WEBPACK_IMPORTED_MODULE_2__["SocialMediaComponent"]],
-        })
-    ], SocialMediaModule);
-    return SocialMediaModule;
 }());
 
 
